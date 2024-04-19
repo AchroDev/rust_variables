@@ -21,8 +21,6 @@ Byte (u8 only)	b'A'
 
 // Ignores unused warning
 #![allow(unused)]
-
-use std::collections::btree_set::Difference;
 fn main() {
     let x = 2.0; //f64
 
@@ -46,4 +44,11 @@ fn operations() {
 
     // remainder
     let remainder = 43 % 5;
+}
+
+// example function for boolean type
+fn booleanlearn() {
+    let t = true;
+
+    let f: bool = false; // with explicit type annotation
 }

@@ -26,29 +26,3 @@ fn main() {
 
     let y: f32 = 3.0; //f32
 }
-
-// example function of mathematical operations in Rust
-fn operations() {
-    // addition
-    let sum = 5 + 10;
-
-    // subtraction
-    let diffference = 95.5 -4.3;
-
-    // multiplication
-    let product = 4 * 30;
-
-    // division
-    let quiotent = 56.7 / 32.2;
-    let truncated = -5 / 3; // Results in -1
-
-    // remainder
-    let remainder = 43 % 5;
-}
-
-// example function for boolean type
-fn booleanlearn() {
-    let t = true;
-
-    let f: bool = false; // with explicit type annotation
-}

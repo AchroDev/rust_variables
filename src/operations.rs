@@ -4,7 +4,7 @@ fn main() {
     let sum = 5 + 10;
 
     // subtraction
-    let diffference = 95.5 - 4.3;
+    let difference = 95.5 - 4.3;
 
     // multiplication
     let product = 4 * 30;

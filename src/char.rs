@@ -8,6 +8,5 @@ fn main() {
     /*Accented letters; Chinese, Japanese, and Korean characters; emoji; and zero-width -
     - spaces are all valid char values in Rust.
     Unicode Scalar Values range from U+0000 to U+D7FF and U+E000 to U+10FFFF inclusive.
-    */ 
-
+    */
 }

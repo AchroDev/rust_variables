@@ -10,6 +10,9 @@ Length	Signed	Unsigned
 arch	isize	usize
 */
 
+/*Each signed variant can store numbers from -(2n - 1) to 2n - 1 - 1 inclusive*/
+/*Unsigned variants can store numbers from 0 to 2n - 1*/
+
 /* Integer Literals
 Number literals	Example
 Decimal	        98_222

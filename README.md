@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/AchroDev/variables">
+  <a href="https://github.com/AchroDev/rust_variables">
     <img src ="images/rust.png" alt="Logo">
   </a>
 <h3 align="center"> Variables in Rust ~ AchroDev </h3>

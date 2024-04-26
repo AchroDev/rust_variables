@@ -42,10 +42,13 @@ fn tuple_directAccess() {
     let six_point_four = x.1;
 
     let one = x.2;
+}
 
-    /*  A tuple without any values is called a "unit" which is written as "()"
-     *   and returns an empty value or an empty return type.
-     */
+/*  A tuple without any values is called a "unit" which is written as "()"
+ *   and returns an empty value or an empty return type.
+*/
+
+fn tuple_empty() {
     let tup1: () = ();
 
     let tup2: (unit, unit, unit) = ();

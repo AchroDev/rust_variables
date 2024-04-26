@@ -9,3 +9,18 @@
 fn main() {
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 }
+
+/*
+*   A tuple is considered a single compound element. To get individual values out
+*   of a tuple, we can use pattern matching to destructure a tuple value like below.
+*
+*   The "_" infront of the variables "x" and "z" indicate they are not being used.
+*/
+
+fn destruct() {
+    let tup = (500, 6.4, 1);
+
+    let (_x, y, _z) = tup;
+
+    println!("The value of y is: {y}")
+}

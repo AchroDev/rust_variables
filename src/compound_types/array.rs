@@ -6,6 +6,8 @@
 
 fn main() {
     let array = [1, 2, 3, 4, 5];
+
+    let array2: [i32; 5] = [1, 2, 3, 4, 5]; // With explicit type and count annotation
 }
 
 // Arrays are useful when you want your data allocated on the stack rather

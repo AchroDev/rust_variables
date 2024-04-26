@@ -21,5 +21,6 @@
 
 [Tuple Types](/src/compound_types/tuple.rs)  
 [Array Types](/src/compound_types/array.rs)
+[Invalid Array Access](/src/compound_types/invalid_array.rs)
 
 #

@@ -17,10 +17,29 @@ fn main() {
 *   The "_" infront of the variables "x" and "z" indicate they are not being used.
 */
 
-fn destruct() {
+fn tuple_destruct() {
     let tup = (500, 6.4, 1);
 
     let (_x, y, _z) = tup;
 
     println!("The value of y is: {y}")
+}
+
+/*
+*   You can directly access a tuple element by using a "." followed by the index
+*   value we want to access.
+*
+*   In example, the first index of a tuple is 0 and we can access that value by
+*   assigning a variable like so; "let five_hundred = x.0;". This will assign the
+*   variable "five_hundred" to the first index of "x" which is the value 500.
+*/
+
+fn tuple_directAccess() {
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+
+    let five_hundred = x.0;
+
+    let six_point_four = x.1;
+
+    let one = x.2;
 }

@@ -26,3 +26,11 @@ fn main() {
 
     println!("The value of the element at index {index} is: {element}");
 }
+
+/*
+*   When you attempt to access an element using indexing, Rust will check that the
+*   index you’ve specified is less than the array length. If the index is greater
+*   than or equal to the length, Rust will panic. This check has to happen at runtime,
+*   especially in this case, because the compiler can’t possibly know what value a user
+*   will enter when they run the code later. - Memory safety FTW! ~~
+*/

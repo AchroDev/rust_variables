@@ -20,5 +20,6 @@
 **Table of Contents**
 
 [Tuple Types](/src/compound_types/tuple.rs)  
+[Array Types](/src/compound_types/array.rs)
 
 #

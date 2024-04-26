@@ -32,3 +32,15 @@ fn months() {
         "December",
     ];
 }
+
+/*
+*   An array is a single chunk of memory of a known, fixed size that can
+*   be allocated on the stack. We access their elements like so:
+*/
+
+fn array_access() {
+    let array = [1, 2, 3, 4, 5];
+
+    let first = array[0]; // Stores the value 1
+    let second = array[1]; // Stores the value 2
+}
